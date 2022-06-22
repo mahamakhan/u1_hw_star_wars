@@ -1,0 +1,138 @@
+    3  cd ga_seir
+    4  ..
+    5  ls
+    6  ga_seir
+    7  uni1
+    8  unit1
+    9  lessons
+   10  ..
+   11  .
+   12  ..
+   13  ls
+   14  cd ga_seir
+   15  unit1
+   16  mkdir test
+   17  test
+   18  cd test
+   19  git init
+   20  ls
+   21  ls -a
+   22  rm -rf .git
+   23  git init
+   24  mkdir folder1 folder2
+   25  ls
+   26  touch index.html script.js style.css
+   27  git add . 
+   28  git status
+   29  git commit -m 'created initial files'
+   30  ..
+   31  cd lessons
+   32  git clone git@github.com:mahamakhan/u1_lesson_VSCode.git
+   33  ls
+   34  cd u1_lesson_VSCode
+   35  code .
+   36  cd da_seir
+   37  cd..
+   38  cd ..
+   39  cd homework
+   40  git clone git@github.com:mahamakhan/u1_hw_star_wars.git
+   41  ls
+   42  cd u1_hw_star_wars
+   43  code .
+   44  history
+   45  code .
+   46  pwd
+   47  ga_seir
+   48  unit1
+   49  homework
+   50  ls
+   51  u1_hw_star_wars
+   52  mkdir star_wars
+   53  star_wars
+   54  mkdir empire rebellion
+   55  ls
+   56  empire
+   57  touch darth_vader.txt
+   58  echo "...heavy breathing..." >> darth_vader.txt
+   59  touch emperor_palpatine.txt
+   60  mkdir death_star
+   61  mv darth_vader.txt empire/death_star
+   62  mv darth_vader.txt death_star
+
+
+
+   75  cd ~
+   76  ga_seir
+   77  unit1
+   78  homework
+   79  u1_hw_star_wars
+   80  star_wars
+   81  rebellion
+   82  touch princess_leia.txt && echo "Help me,Obi-Wan.." >>princess_leia.txt\n
+   83  touch obi_wan.txt
+   84  touch luke_skywalker.txt
+   85  mkdir millenium_falcon
+   86  millenium_falcon
+   87  touch han_solo.txt chewbacca.txt\n
+   88  cd ..
+   89  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+   90  cd ..
+   91  mv millenium_falcon empire/death_star 
+   92  pwd
+   93  mv rebellion/millenium_falcon empire/death_star
+
+   95  mv empire/death_star/millenium_falcon/* empire/death_star
+   96  ls
+   97  empire
+   98  death_star
+   99  rm obi_wan.txt
+  100  mv chewbacca.tx han_solo.tx luke_skywalker.txt princess_leia.txt mellenium_falcon
+  101  mv chewbacca.tx han_solo.tx luke_skywalker.txt princess_leia.txt death_star/mellenium_falcon
+  102  mv chewbacca.tx han_solo.tx luke_skywalker.txt princess_leia.txt millenium_falcon\n
+  103  mv chewbacca.txt han_solo.txt mellenium_falcon\n
+  104  mv chewbacca.txt han_solo.txt millenium_falcon 
+  105  mv death_star/millenium_falcon star_wars/rebellion
+  106  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion\n
+  107  cd ..
+  108  mv death_star/millenium_falcon star_wars/rebellion\n
+  109  mv millenium_falcon empire/death_star
+  110  death_star
+  111  mv millenium_falcon empire/death_star
+  112  mv millenium_falcon star_wars/rebellion
+  113  ls
+  114  mv death_star/millenium_falcon star_wars/rebellion
+  115  ls
+  116  millenium_falcon
+  117  mv millenium_falcon star_wars/rebellion\n
+  118  ls
+  119  cd ..
+  120  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  121  mv darth_vader.txt star_wars/empire/death_star
+  122  empire
+  123  mv darth_vader.txt star_wars/empire
+  124* cd ga_seir
+  125* unit1
+  126* homework
+  127* u1_hw_star_wars
+  128* mkdir star_wars
+  129* star_wars
+  130* mkdir empire rebellion
+  131  mv millenium_falcon /* death_star
+  132  death_star
+  133  mv millenium_falcon /* death_star
+  134  cd ..
+  135  mv millenium_falcon /* star_wars/rebellion
+  136  mv millenium_falcon /* empire
+  137  mv millenium_falcon /* star_wars/empire
+  138  ..
+  139  mv millenium_falcon /* ../empire
+  140  ls
+  141  mv empire/death_star/millenium_falcon rebellion
+  142  mv empire/death_star/darth_vader.txt empire
+  143  rm death_star
+  144  empire
+  145  rm death_star
+  146  rm -rf death_star
+
+
+
